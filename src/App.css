@@ -1,0 +1,359 @@
+@font-face {
+  font-family: 'CopperPlate';
+  src: url("styles/fonts/CopperplateRegular.ttf")format('truetype')
+}
+
+@font-face {
+  font-family: 'GMarketBold';
+  src: url("styles/fonts/GmarketSansTTFBold.ttf")format('truetype')
+}
+
+@font-face {
+  font-family: 'GMarketMedium';
+  src: url("styles/fonts/GmarketSansTTFMedium.ttf")format('truetype')
+}
+
+@font-face {
+  font-family: 'GMarketLight';
+  src: url("styles/fonts/GmarketSansTTFLight.ttf")format('truetype')
+}
+
+
+.App {
+  text-align: center;
+  background-color: rgb(240, 240, 240);
+}
+
+.home-nav {
+  /* border: 2px solid black; */
+  width: 100%;
+  background: none;
+  position: fixed;
+  display: flex;
+  color: black;
+  padding: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  justify-content: flex-end;
+  background-color: rgb(240, 240, 240);
+}
+
+.navbar-menu{
+  /* border: 2px solid red; */
+  font-family: GMarketMedium;
+  justify-content: flex-end;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+
+
+.navbar-menu .menu:hover{
+  color:rgb(162, 31, 202);
+}
+
+.home_body{
+  display: flex;
+  padding: 5em;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.home_image{
+  /* border: 2px solid red; */
+  display: flex;
+  width: 40%;
+  height: 40%;
+  padding-bottom: 10em;
+}
+
+.home_name{
+  flex-direction: column;
+  padding-left: 100px;
+  letter-spacing: 10px;
+
+}
+
+.name{
+  /* border: 2px solid green; */
+  display: flex;
+  font-family: "CopperPlate";
+  font-size: 5rem;
+  font-weight: 1000;
+}
+
+.portfolio{
+  display: flex;
+  font-family: "CopperPlate";
+  font-size: 2rem;
+  font-weight: 1000;
+}
+
+.profile{
+  /* border: 2px solid red; */
+  background-color: white;
+  padding: 150px;
+}
+
+
+.heading{
+  color:rgb(162, 31, 202);
+  display: flex;
+  font-size: 1.5rem;
+  font-family: GMarketBold;
+  padding-bottom: 1em;
+}
+
+.subheading{
+  display: flex;
+  color:rgb(0, 0, 0);
+  padding-right: 15px;
+  font-size: 2.5rem;
+  font-family: GMarketMedium;
+}
+
+.university{
+  display:flex;
+  color:rgb(104, 104, 104);
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+  padding-bottom: 5em;
+}
+
+.hanna_info{
+  display:flex;
+  font-family: GMarketMedium;
+  color:rgb(104, 104, 104);
+  font-size: 1rem;
+  padding: 3px;
+}
+
+.skill{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills, .contact{
+  background-color: rgb(240, 240, 240);
+  padding: 150px;
+  font-family: GMarketMedium;
+  color:rgb(104, 104, 104);
+  font-size: 1rem;
+}
+
+.skill_img{
+  width: 10rem;
+  height: 10rem;
+}
+
+.skill_name{
+  flex-direction: column;
+  width: 10rem;
+}
+
+.profile_subheading_backend{
+  display: flex;
+  color:rgb(0, 0, 0);
+  padding-top: 3em;
+  padding-right: 15px;
+  font-size: 2.5rem;
+  font-family: GMarketMedium;
+}
+
+.project{
+  display: flex;
+  justify-content: space-between;
+}
+
+.project2{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5em;
+}
+
+.todo_left{
+  display: flex;
+}
+
+.baemin_mockup{
+  width: 60%;
+}
+
+.todo_mockup{
+  width: 50%;
+}
+
+.higom_mockup{
+  width: 40%;
+}
+
+.projects_info{
+  padding-top: 3em;
+  display:flex;
+  color:rgb(104, 104, 104);
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+  padding-bottom: 2em;
+  width: 150%;
+}
+
+.projects_smallinfo{
+  display:flex;
+  color:rgb(92, 92, 92);
+  font-family: "GMarketMedium";
+  font-size: 0.9rem;
+  height: 30px;
+  width: 150%;
+}
+
+.button{
+  display: flex;
+  height: 15%;
+  padding-top: 1em;
+}
+
+.project_button, .project_button_not{
+  width: 100%;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(192, 192, 192);
+  margin-right: 5px;
+  color: white;
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+}
+
+.project_button:hover{
+  width: 100%;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(162, 31, 202);
+  margin-right: 5px;
+  color: white;
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+}
+
+.project_button_not:hover{
+  width: 100%;
+  border: none;
+  border-radius: 2rem;
+  background-color: rgb(202, 31, 31);
+  margin-right: 5px;
+  color: white;
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+}
+
+.container{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact_info{
+  /* border: 2px solid black; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_reach{
+  padding: 2em;
+  color:rgb(162, 31, 202);
+}
+
+.contact1{
+  /* border: 3px solid green; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_ex{
+  display: flex;
+}
+
+.contact-form{
+  flex-direction: column;
+  font-family: "GMarketMedium";
+  font-size: 1rem;
+}
+
+.form-control{
+  display:flex;
+  width: 30em;
+  height: 3em;
+  margin: 1em;
+  font-family: "GMarketMedium";
+  font-size: 0.9rem;
+}
+
+.form-control_mail{
+  display:flex;
+  width: 30em;
+  height: 12em;
+  margin: 1em;
+  font-family: "GMarketMedium";
+  font-size: 0.9rem;
+}
+
+.contact_send{
+  display: flex;
+}
+
+.sendButton{
+  display:flex;
+  width: 30em;
+  height: 3em;
+  margin: 1em;
+  font-family: "GMarketMedium";
+  font-size: 0.9rem;
+  justify-content: center;
+  border: none;
+  background-color: rgb(162, 31, 202);
+  color: white;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
