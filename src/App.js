@@ -33,7 +33,7 @@ function App() {
 
     emailjs.sendForm('service_hvq0qsj', 'template_klt5vy8', e.target, 'user_4FSyvZxksaQvCCLM6WCIC')
       .then((result) => {
-          alert("메일이 전송되었습니다.\n\n확인 후 연락 드리겠습니다.\n감사합니다 :)");
+          alert("메일이 발송되었습니다.\n\n확인 후 연락 드리겠습니다.\n감사합니다 :)");
           console.log(result.text);
           
       }, (error) => {
