@@ -73,7 +73,7 @@ function App() {
       <div className="university">한국뉴욕주립대학교 컴퓨터과학과 졸업</div>
       <div className="hanna_info">Tel: 010 3174 8953</div>
       <div className="hanna_info">E-mail: hanna@gmail.com</div>
-      <div className="hanna_info">Portfolio: 주소</div> 
+      <div className="hanna_info">Portfolio: https://hannajung.github.io/homepage/</div> 
     </div>
 
     <div className="skills">
