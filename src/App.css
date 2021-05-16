@@ -193,7 +193,6 @@
 }
 
 .todo_mockup{
-  border: 2px solid red;
   width: 70%;
   height: 90%;
 }
@@ -202,10 +201,16 @@
   display: none;
 }
 
-.higom_mockup{
+.mockUp_img{
+  display: none;
+}
+
+.higom_mockup1{
   width: 40%;
   height: 40%;
 }
+
+
 
 .projects_info{
   padding-top: 3em;
@@ -474,8 +479,8 @@
 
   .todo_mockup2, .higom_mockup{
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
   }
 
   .form-control{
@@ -488,6 +493,10 @@
   
   .sendButton{
     width: 80vw;
+  }
+  
+  .higom_mockup1{
+    display: none;
   }
 
 }

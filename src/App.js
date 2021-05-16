@@ -148,6 +148,7 @@ function App() {
             <button className="project_button_not">준비중</button>
           </div>
         </div>
+        <img className="higom_mockup1" src={higom} alt="higom"></img>
         <div className="mockUp_img">
           <img className="higom_mockup" src={higom} alt="higom"></img>
         </div>
