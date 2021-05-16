@@ -25,7 +25,6 @@
 }
 
 .home-nav {
-  /* border: 2px solid black; */
   width: 98%;
   background: none;
   position: fixed;
@@ -39,7 +38,6 @@
 }
 
 .navbar-menu{
-  /* border: 2px solid red; */
   font-family: GMarketMedium;
   justify-content: flex-end;
   display: flex;

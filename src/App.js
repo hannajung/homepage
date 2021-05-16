@@ -156,9 +156,6 @@ function App() {
 
     </div>
           
-      
-
-      
 
       <div className="contact" id="contact">
         <div className="heading">Contact</div>
