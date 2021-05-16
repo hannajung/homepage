@@ -26,14 +26,14 @@
 
 .home-nav {
   /* border: 2px solid black; */
-  width: 100%;
+  width: 98%;
   background: none;
   position: fixed;
   display: flex;
   color: black;
-  padding: 20px;
+  padding: 0.5em;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vw;
   justify-content: flex-end;
   background-color: rgb(240, 240, 240);
 }
@@ -44,7 +44,7 @@
   justify-content: flex-end;
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  width: 40%;
 }
 
 
@@ -54,8 +54,8 @@
 
 .home_body{
   display: flex;
-  padding: 5em;
-  justify-content: center;
+  padding-top: 5rem;
+  justify-content: space-evenly;
   align-items: center;
   
 }
@@ -65,12 +65,12 @@
   display: flex;
   width: 40%;
   height: 40%;
-  padding-bottom: 10em;
+  padding-bottom: 5em;
 }
 
 .home_name{
+  /* border: 2px solid black; */
   flex-direction: column;
-  padding-left: 100px;
   letter-spacing: 10px;
 
 }
@@ -79,21 +79,21 @@
   /* border: 2px solid green; */
   display: flex;
   font-family: "CopperPlate";
-  font-size: 5rem;
+  font-size: 7vw;
   font-weight: 1000;
 }
 
 .portfolio{
   display: flex;
   font-family: "CopperPlate";
-  font-size: 2rem;
+  font-size: 3vw;
   font-weight: 1000;
 }
 
 .profile{
   /* border: 2px solid red; */
   background-color: white;
-  padding: 150px;
+  padding: 15%;
 }
 
 
@@ -142,14 +142,25 @@
   font-size: 1rem;
 }
 
+.skill{
+  width: 100%;
+  flex-wrap: wrap;
+}
+
 .skill_img{
   width: 10rem;
   height: 10rem;
 }
 
 .skill_name{
+  /* border: 2px solid black; */
   flex-direction: column;
+  width: 10em;
+  height: 10em;
+  font-size: 1rem;
   width: 10rem;
+  height: 10rem;
+  margin: 1rem;
 }
 
 .profile_subheading_backend{
@@ -178,14 +189,22 @@
 
 .baemin_mockup{
   width: 60%;
+  height: 60%;
 }
 
 .todo_mockup{
-  width: 50%;
+  border: 2px solid red;
+  width: 70%;
+  height: 90%;
+}
+
+.todo_mockup2{
+  display: none;
 }
 
 .higom_mockup{
   width: 40%;
+  height: 40%;
 }
 
 .projects_info{
@@ -214,7 +233,8 @@
 }
 
 .project_button, .project_button_not{
-  width: 100%;
+  width: 7em;
+  height: 4em;
   border: none;
   border-radius: 2rem;
   background-color: rgb(192, 192, 192);
@@ -284,7 +304,7 @@
 
 .form-control{
   display:flex;
-  width: 30em;
+  width: 40vw;
   height: 3em;
   margin: 1em;
   font-family: "GMarketMedium";
@@ -293,7 +313,7 @@
 
 .form-control_mail{
   display:flex;
-  width: 30em;
+  width: 40vw;
   height: 12em;
   margin: 1em;
   font-family: "GMarketMedium";
@@ -306,7 +326,7 @@
 
 .sendButton{
   display:flex;
-  width: 30em;
+  width: 40vw;
   height: 3em;
   margin: 1em;
   font-family: "GMarketMedium";
@@ -349,11 +369,126 @@
   }
 }
 
+@media (max-width: 1000px){
+  .project{
+    flex-direction: column;
+  }
+
+  .baemin_mockup{
+    width: 90%;
+    height: 90%;
+  }
+
+  
+
+  .project_button,.project_button_not{
+    width: 6em;
+    height: 3em;
+    margin-bottom: 3em;
+  }
+}
 
 
+@media (max-width: 700px){
+  .home_image{
+    width: 70%;
+    height: 70%;
+  }
 
+  .home_body{
+    flex-direction: column;
+  }
 
+  .profile{
+    /* border: 2px solid red; */
+    background-color: white;
+    padding: 3%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
 
+  .skills, .contact{
+    background-color: rgb(240, 240, 240);
+    padding: 3%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+  }
 
+  .container{
+    flex-direction: column;
+  }
 
+  .home_name{
+    padding-bottom: 5rem;
+  }
+
+  .name{
+    font-size: 10vw;
+  }
+
+  .portfolio{
+    font-size: 5vw;
+  }
+  
+  .navbar-menu{
+    /* border: 2px solid red; */
+    font-family: GMarketMedium;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  .skill{
+    /* border: 2px solid black; */
+    width: 100%;
+    flex-wrap: wrap;
+
+  }
+
+  .skill_name{
+    /* border: 2px solid rgb(44, 44, 44); */
+    width: 10rem;
+    height: 10rem;
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+
+  .skill_img{
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .project2{
+    flex-direction: column;
+  }
+
+  .todo_mockup{
+    display: none;
+  }
+
+  .mockUp_img{
+    display: flex;
+    justify-content: center;
+  }
+
+  .todo_mockup2, .higom_mockup{
+    display: flex;
+    width: 80%;
+    height: 80%;
+  }
+
+  .form-control{
+    width: 80vw;
+  }
+  
+  .form-control_mail{
+    width: 80vw;
+  }
+  
+  .sendButton{
+    width: 80vw;
+  }
+
+}
 
